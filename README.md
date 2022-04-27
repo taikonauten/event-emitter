@@ -26,9 +26,14 @@ const callback = (params) => {
 // add a listener
 emitter.addListener('test-event', callback);
 
+const testData = {
+    message: 'success',
+    event: 'test-event',
+};
+
 // emit the event
-// result: test-event fired with params [a: 1, b: 2]
-emitter.emit('test-event', [a: 1, b: 2]);
+// result: test-event fired with params {message: 'success', event: 'test-event'}
+emitter.emit('test-event', testData);
 
 // remove the listener at any time
 emitter.removeListener('test-event', callback);
