@@ -1,5 +1,6 @@
 {
   "name": "@taikonauten/event-emitter",
+  "description": "Wrapper library to abstract access to underlying event emitter libraries.",
   "version": "2.3.0",
   "main": "index.js",
   "types": "index.d.ts",
