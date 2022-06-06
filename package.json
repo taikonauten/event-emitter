@@ -20,11 +20,11 @@
   "devDependencies": {
     "@taikonauten/linters-js": "^1.1.0",
     "@taikonauten/linters-typescript": "^1.2.0",
-    "@typescript-eslint/eslint-plugin": "^5.25.0",
-    "@typescript-eslint/parser": "^5.25.0",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
     "babel-eslint": "^10.1.0",
-    "eslint": "^8.15.0",
-    "typescript": "^4.6.4"
+    "eslint": "^8.17.0",
+    "typescript": "^4.7.3"
   },
   "dependencies": {
     "eventemitter3": "^4.0.7"
