@@ -19,7 +19,7 @@ function addListener(name: string, listener: (...args: any[]) => void) {
  * @param name name of the existing event-listener
  * @param listener callback function
  */
-function removeListener(name: string, listener: () => void) {
+function removeListener(name: string, listener: (...args: any[]) => void) {
   eventEmitter.removeListener(name, listener);
 }
 
